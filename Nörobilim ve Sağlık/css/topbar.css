@@ -1,0 +1,43 @@
+.topbar {
+    background: var(--ikincil-renk);
+    color: var(--baslik-rengi);
+    padding: 5px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.t-left ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.t-left li {
+    margin-right: 15px;
+}
+
+.t-left a {
+    color: var(--baslik-rengi);
+    font-size: 12px;
+}
+
+.t-left a:hover {
+    padding: 5px 8px;
+    background: var(--birincil-renk)
+}
+
+.t-right a {
+    color: var(--baslik-rengi);
+    margin-left: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.t-right a:hover {
+    padding: 5px 5px;
+    background: var(--birincil-renk)
+}

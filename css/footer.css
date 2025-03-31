@@ -1,0 +1,157 @@
+footer {
+    background: var(--birincil-renk);
+    color: white;
+}
+
+.fo {
+    padding: 25px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.fo-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.fo-logo {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fo-logo a img {
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.fo-logo a img:hover {
+    transform: scale(1.1);
+}
+
+.fo-smedya {
+    display: flex;
+    gap: 10px;
+}
+
+.fo-smedya a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: var(--arkaplan-rengi);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.fo-smedya a:hover {
+    background-color:#e0e0e0;
+    transform: translateY(-3px);
+}
+
+.fo-smedya img {
+    width: 20px;
+    height: 20px;
+}
+
+.fo-center {
+    width: 40%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fo-center h3 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hizli-erisim ul {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hizli-erisim ul li {
+    margin: 15px;
+}
+
+.hizli-erisim ul li a {
+    color: var(--arkaplan-rengi);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hizli-erisim ul li a:hover {
+    color: #e0e0e0;
+}
+
+.fo-right {
+    margin-top: 10px;
+    width: 25%;
+    align-items: center;
+}
+
+.fo-right h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.abonelik {
+    display: flex;
+    flex-direction: column;
+}
+
+.abonelik p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+.abonelik input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.abonelik button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.abonelik button:hover {
+    background-color: #45a049;
+}
+
+.copyright {
+    text-align: center;
+    padding: 5px 10%;
+    font-size: 14px;
+    color: black;
+    background: var(--ikincil-renk);
+}
+
+.copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
